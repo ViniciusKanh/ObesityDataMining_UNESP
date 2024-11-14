@@ -1,39 +1,36 @@
-# ObesityDataMining_UNESP
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Projeto de mineração de dados desenvolvido como parte de um estudo no programa de mestrado da UNESP, com foco na análise e predição de obesidade a partir de dados comportamentais, demográficos e de saúde.
+## Getting Started
 
-## Descrição do Projeto
+First, run the development server:
 
-Este projeto explora técnicas de mineração de dados e aprendizado de máquina aplicadas a um conjunto de dados sobre obesidade. O objetivo principal é identificar padrões e construir modelos preditivos para classificação de níveis de obesidade. Foram testados vários algoritmos de classificação, com comparações de desempenho baseadas em métricas como acurácia, F1-score, precisão e recall.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Estrutura do Repositório
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **notebooks/**: Contém os notebooks de pré-processamento, exploração e modelagem dos dados.
-- **data/**: Diretório para armazenamento do dataset e dados tratados.
-- **results/**: Armazena gráficos e relatórios gerados durante as análises.
-- **requirements.txt**: Lista de pacotes e bibliotecas necessários para rodar o projeto.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Tecnologias Utilizadas
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Python
-- Pandas, NumPy
-- Scikit-Learn
-- Matplotlib, Seaborn
-- Jupyter Notebook
+## Learn More
 
-## Estrutura do Dataset
+To learn more about Next.js, take a look at the following resources:
 
-O dataset utilizado contém atributos relevantes para a predição de obesidade, incluindo:
-- **Variáveis Demográficas**: Idade, gênero.
-- **Variáveis Comportamentais**: Consumo de alimentos, frequência de exercícios, uso de tecnologia.
-- **Variáveis de Saúde**: Histórico familiar de obesidade, índice de massa corporal (IMC).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Para maiores detalhes sobre cada variável, consulte o notebook de exploração.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Resultados e Conclusões
+## Deploy on Vercel
 
-Os principais classificadores aplicados foram comparados utilizando métricas de desempenho como acurácia, F1-score, precisão e recall. Os melhores modelos identificados foram `HistGradientBoostingClassifier` e `StackingClassifier`, ambos alcançando alta precisão e adequação para a predição de obesidade.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
