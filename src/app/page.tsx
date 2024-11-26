@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button, Card, Divider, Select, Typography, Space, Tooltip } from "antd";
 import { UserOutlined, CheckCircleOutlined, InfoCircleOutlined, SmileOutlined } from "@ant-design/icons";
 import "../app/globals.css"; // Certifique-se de que este arquivo exista e contenha estilos globais
+import axios from "axios";
 
 const { Option } = Select;
 const { Title, Paragraph, Text } = Typography;
@@ -25,6 +26,36 @@ export default function Home() {
       ...prevData,
       [field]: value,
     }));
+  };
+
+  const API_URL = "https://b681-104-199-230-154.ngrok-free.app";
+
+  const handleSubmit = async () => {
+    try {
+      const response = await axios.post(`${API_URL}/predict/`, {
+        Gender: formData.Gender === "Male" ? 1 : 0,
+        Age: 25.0,
+        Height: 1.75,
+        Weight: 70.0,
+        family_history_with_overweight: formData.family_history_with_overweight === "yes" ? 1 : 0,
+        FAVC: formData.FAVC === "yes" ? 1 : 0,
+        FCVC: 3.0, // Exemplo fixo, pode ajustar conforme o formulário
+        NCP: 3.0,
+        CAEC: formData.CAEC,
+        SMOKE: formData.SMOKE === "yes" ? 1 : 0,
+        CH2O: 2.0,
+        SCC: formData.SCC === "yes" ? 1 : 0,
+        FAF: 0.5,
+        TUE: 0.5,
+        CALC: formData.CALC,
+        MTRANS: formData.MTRANS,
+      });
+  
+      alert(`Classe Predita: ${response.data.majority_class}`);
+    } catch (error) {
+      console.error("Erro ao fazer a previsão:", error);
+      alert("Ocorreu um erro ao fazer a previsão. Por favor, tente novamente.");
+    }
   };
 
   return (
@@ -169,12 +200,13 @@ export default function Home() {
           </Tooltip>
 
           <Button
-            type="primary"
-            icon={<CheckCircleOutlined />}
-            className="w-full h-12 mt-6 text-lg font-semibold rounded-lg bg-blue-500 hover:bg-blue-600 text-white shadow-md"
-          >
-            Salvar Dados
-          </Button>
+  type="primary"
+  icon={<CheckCircleOutlined />}
+  className="w-full h-12 mt-6 text-lg font-semibold rounded-lg bg-blue-500 hover:bg-blue-600 text-white shadow-md"
+  onClick={handleSubmit} // Aqui adicionamos a função de submit
+>
+  Salvar Dados
+</Button>;
         </div>
       </Card>
 

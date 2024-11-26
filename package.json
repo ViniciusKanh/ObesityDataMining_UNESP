@@ -6,14 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "powershell Remove-Item -Recurse -Force .next"
   },
   "dependencies": {
-    "antd": "^5.21.6",
-    "next": "15.0.2",
+    "@ant-design/icons": "^5.5.1",
+    "antd": "^5.22.2",
+    "axios": "^1.7.8",
+    "next": "^15.0.3",
     "obsedytracer": "file:",
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",

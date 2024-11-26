@@ -1,0 +1,165 @@
+TY  - CONF
+TI  - Systematic Review of Diagnostic Modalities for Sleep Apnea: A Comprehensive Analysis
+T2  - 2023 International Conference on Sustainable Computing and Smart Systems (ICSCSS)
+SP  - 897
+EP  - 903
+AU  - P. Bhavitha
+AU  - J. Harish
+AU  - A. Ravi Raja
+AU  - P. K. Polasi
+AU  - D. Anjali
+AU  - P. V. Kumar
+PY  - 2023
+KW  - Technological innovation
+KW  - Systematics
+KW  - Sensitivity
+KW  - Sleep
+KW  - Biological tissues
+KW  - Muscles
+KW  - Sleep apnea
+KW  - Cardiovascular
+KW  - Metabolic Disease
+KW  - Rapid Eye Movement
+KW  - Non-Rapid Eye Movement Polysomnography
+KW  - Obstructive Sleep Apnea
+KW  - Central Sleep Apnea
+DO  - 10.1109/ICSCSS57650.2023.10169656
+JO  - 2023 International Conference on Sustainable Computing and Smart Systems (ICSCSS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on Sustainable Computing and Smart Systems (ICSCSS)
+Y1  - 14-16 June 2023
+AB  - Sleep apnea is a prevalent sleep condition where a person experiences frequent interruptions in breathing during their sleep. Which can lead to decreased oxygen levels and poor quality of sleep. The sleep cycle consists of Rapid Eye Movement (REM) and three distinct phases of Non-Rapid Eye Movement (NREM). Sleep apnea eventually decreases the amount of time spent in REM and NREM3 (Which is the deepest stage of sleep. Sleep apnea primarily falls into three categories. Obstructive Sleep Apnea (OSA) is a condition where the soft tissues in the lower portion of the throat relax during slumber, obstructing the upper airway. A lack of the appropriate signals that the brain sends to control the muscles that control breathing is a defining feature of central sleep apnea (CSA). The combination of central and obstructive sleep apnea is known as mixed sleep apnea (MSA). Sleep apnea cases have been tremendously reported in recent years. In adults, excess weight and obesity that affect the soft tissues of the mouth and pharynx are the primary causes of OSA, whereas, in children, enlarged tonsils and adenoids are responsible for the condition. Loud snoring, extreme daily sleepiness, impaired memory, and fatigue are some signs of sleep apnea. A sleep study can be used to identify sleep apnea. Monitoring a person’s brain waves, documenting their muscle movements, and using equipment like Continuous Positive Airway Pressure (CPAP) are all part of polysomnography (PSG). Untreated sleep apnea can result in metabolic and cardiovascular problems. For a better existence, a study on sleep apnea is recommended.
+ER  - 
+
+TY  - CONF
+TI  - Exploring the Efforts of IAN-BGRU Justifications in Food Recommender System and its User Preferences
+T2  - 2023 International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)
+SP  - 847
+EP  - 852
+AU  - A. A. A. Haris
+AU  - E. S. Vinothkumar
+AU  - N. Nithya
+AU  - N. Sharma
+AU  - A. P
+AU  - B. Gayathri
+PY  - 2023
+KW  - Training
+KW  - Feature extraction
+KW  - Data processing
+KW  - Encoding
+KW  - Data models
+KW  - Supercomputers
+KW  - Software
+KW  - Conditional Random Field (CRF)
+KW  - Interactive Attention Network (IAN)
+KW  - Gated Recurrent Unit (GRU)
+DO  - 10.1109/ICSSAS57918.2023.10331717
+JO  - 2023 International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS)
+Y1  - 18-20 Oct. 2023
+AB  - There has been a general increase in the frequency with which people discuss diet, eating, and cooking. In actuality, there are far more dishes to choose from and ingredient combinations to try, and chefs (and even IBM supercomputers) create new dishes all the time. Many people find it difficult to keep up with the ever-evolving landscape of accessible foods and eating habits, which contributes to the rising prevalence of chronic diseases like obesity and diabetes. Our recipe recommendation engine thus not only offers tasty but also nutritious options for the consumer. The proposed approach designed our software for mobile because the proposed system envisions it being utilized in many different rooms and environments, including kitchens. Data processing, feature selection, and model training are the first three stages of the suggested procedure. Normalization and encoding are two components of data processing. As a criterion for feature selection, they employ inconsistency. After features are selected, IAN-BGRU is used to train the models. The proposed technique outperforms IAN and BGRU, two of the most used alternatives.
+ER  - 
+
+TY  - CONF
+TI  - Utilizing deep learning techniques for detection of Polycystic Ovarian Syndrome using ovarian ultrasound image
+T2  - 2023 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)
+SP  - 1
+EP  - 7
+AU  - S. Subramani
+AU  - A. Rarichan
+AU  - S. H. Chaithra
+PY  - 2023
+KW  - Deep learning
+KW  - YOLO
+KW  - Image analysis
+KW  - Computational modeling
+KW  - Transfer learning
+KW  - Ultrasonography
+KW  - Feature extraction
+KW  - PCOS
+KW  - Deep learning
+KW  - Convolutional Neural Network
+KW  - Ultrasonography
+DO  - 10.1109/ICSES60034.2023.10465547
+JO  - 2023 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)
+Y1  - 14-15 Dec. 2023
+AB  - This Polycystic Ovarian Syndrome (PCOS) is a medical condition that affects women of reproductive age, characterized by a hormonal imbalance. It usually starts during adolescence, but symptoms may fluctuate over time. PCOS can cause hormonal imbalances due to the cysts present in the ovaries and that can lead to secretion of excess level of androgen. Due to this a PCOS patient can have irregular periods which can cause infertility due to the lack of ovulation. One of the major cause of infertility is PCOS. PCOS is a condition where it is incurable. However, through lifestyle changes, medications and fertility treatments some symptoms can be controlled. Factors like genetics, obesity and high level of androgen can be the causes of the PCOS. But the exact cause is unknown. Polycyst detection using ovarian ultrasonography (USG) scans is a very reliable way to accurately diagnose PCOS and create individualized treatment plans for affected people. Adopting an intelligent computer-assisted cyst detection method is a workable alternative to depending on the imperfect process of manual identification. Thus, we introduced a deep learning-based classification system for PCOS prediction in this research. We train and test the model with a dataset of ovarian ultrasonography (USG) images. To distinguish between ovaries affected by PCOS and those that are not, relevant features from the dataset were specifically extracted using Convolutional Neural Network (CNN). This paper compares different deep learning algorithms such as Alexnet, Resnet50, VGG16 and YOLO V5, which have been found to be the most useful in classifying the ovaries affected by PCOS effectively. The validation techniques show Yolo V5 to be the most effective with an accuracy of 99.8%.
+ER  - 
+
+TY  - CONF
+TI  - Analysis of Serious Games for Nutrition Using NLP Techniques
+T2  - 2024 IEEE 14th Annual Computing and Communication Workshop and Conference (CCWC)
+SP  - 0734
+EP  - 0743
+AU  - V. A. Okpanachi
+AU  - I. Adaji
+PY  - 2024
+KW  - Emotion recognition
+KW  - Sentiment analysis
+KW  - Web pages
+KW  - Software
+KW  - Serious games
+KW  - Internet
+KW  - Stakeholders
+KW  - NLP
+KW  - serious games
+KW  - nutritional games
+KW  - persuasive games
+KW  - NLP techniques
+KW  - sentiment analysis
+KW  - emotions
+DO  - 10.1109/CCWC60891.2024.10427569
+JO  - 2024 IEEE 14th Annual Computing and Communication Workshop and Conference (CCWC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2024 IEEE 14th Annual Computing and Communication Workshop and Conference (CCWC)
+Y1  - 8-10 Jan. 2024
+AB  - Serious games, which are games that are designed not just for entertainment, are commonly used to teach important concepts such as a new language, or other specific subjects such as healthy nutrition. Serious games can be a fun and interactive way to educate people about healthy eating habits which can go a long way to address health challenges such as obesity. These games are typically available to users on the app store such as the Google Play Store where users can also write reviews based on their experience playing the game. The reviews are a rich source of information and feedback for game developers and other stakeholders. Analyzing the sentiments and emotions expressed in such reviews can help developers gain insights into how players perceive a game’s effectiveness in achieving its goals and aims. This can aid the development of future releases of the game where issues are fixed and improvements made. To contribute to research in this area, ten games are analyzed for sentiments and emotions using Natural Language Processing techniques. Our results show that all but one of the games have more positive sentiments than negative sentiments. In addition, some of the popular emotions we identified include admiration, approval, amusement, and love. To support game designers and other stakeholders in gaining useful insights from our results, we developed a tool in the form of an interactive web page where users can view the sentiments and emotions expressed in the reviews of each game including the raw reviews. This can help game designers and other stakeholders explore reviews of users in one place.
+ER  - 
+
+TY  - CONF
+TI  - Experimental Analysis for Non-Alcoholic Fatty Liver Disease in Ultrasound Images Based on Efficient Net Classifier
+T2  - 2023 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)
+SP  - 1
+EP  - 7
+AU  - G. Paul
+AU  - R. Govindaraj
+PY  - 2023
+KW  - Training
+KW  - Ultrasonic imaging
+KW  - Sensitivity
+KW  - Liver diseases
+KW  - Transfer learning
+KW  - Refining
+KW  - Imaging
+KW  - DeepLearning
+KW  - Image Processing
+KW  - Non-aIcoholic Fatty Liver Disease
+KW  - EfficientNet
+KW  - K-Nearest Neighbors
+DO  - 10.1109/ICSES60034.2023.10465508
+JO  - 2023 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2023 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES)
+Y1  - 14-15 Dec. 2023
+AB  - Liver dysfunction is most commonly brought on by fatty liver disease, which is widespread in both developed and developing countries. If not addressed, fatty liver might lead to serious complications. As juvenile obesity rates rise, so does the number of children diagnosed with nonalcoholic fatty liver disease (NAFLD). In order to distinguish nonalcoholic fatty liver disease (NAFLD) from healthy liver tissue, we wanted to perform digital image analysis (DIA) on ultrasound (US) pictures of the liver and create a machine learning (ML) based categorization model. This study compares EfficientNet Classifier and K-Nearest Neighbors (KNN) for its ability to detect the presence of nonalcoholic fatty liver disease in ultrasound images. The histological outcome of a liver biopsy may have been consulted as a reference for liver fat, as well as ultrasound scans of persons who went through laparoscopic surgery were additionally utilized as a reference for liver fat. EfficientNet Classifier and K-Nearest Neighbors were then used to classify the photos into one of two categories. For EfficientNet categorization, an artificial model for predicting liver fat from ultrasound images achieved an accuracy of 87%. However, when using K-Nearest Neighbors for categorization, 85% accuracies were achieved. Automatic detection of liver fat utilizing the suggested technique based on textural characteristics utilizing the GLCM and the EfficientNet categorization from ultrasound pictures can aid physicians and radiologists in making a definitive diagnosis.
+ER  - 
+
+
